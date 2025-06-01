@@ -1,0 +1,40 @@
+{
+  "args": {
+    "dir": "data/ssc/squares-circles",
+    "imageSize": 32,
+    "batch1": 6,
+    "epochs1": 5,
+    "n_convolution1": 90,
+    "kernel_size1": 2,
+    "strides1": 1,
+    "pool1": 1,
+    "dropout1": 0,
+    "reluLeak1": 0,
+    "n_convolution2": 120,
+    "kernel_size2": 5,
+    "strides2": 1,
+    "pool2": 3,
+    "dropout2": 0,
+    "reluLeak2": 0.1,
+    "n_convolution3": 125,
+    "kernel_size3": 2,
+    "strides3": 1,
+    "pool3": 2,
+    "dropout3": 0.1,
+    "reluLeak3": 0.1,
+    "n_dense1": 40,
+    "dropoutDense1": 0.2,
+    "reluLeakDense1": 0.3,
+    "bias_initializer": 0.6,
+    "kernel_initializer": "he_normal",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01
+  },
+  "mean_loss": 0.03738512471318245,
+  "var_loss": 0.00021219875250834684,
+  "mean_accuracy": 0.9908333241939544,
+  "plots": {
+    "loss": "loss.png",
+    "accuracy": "accuracy.png"
+  }
+}
