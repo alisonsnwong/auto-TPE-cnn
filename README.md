@@ -1,2 +1,3 @@
-# auto-TPE-cnn
-Accelerating CNN Hyperparameter Tuning with TPE and Statistical Early Stopping
+# Accelerating CNN Hyperparameter Tuning with TPE and Statistical Early Stopping
+
+Hyperparameter optimization (HPO) plays a crucial role in training high-performing deep learning models, but existing methods such as Random Search, Hyperband, and Tree-structured Parzen Estimators (TPE) often rely on predefined iteration budgets, leading to inefficient use of computational resources if suboptimal configurations are continuously evaluated after an optimal hyperparameter configuration is evident. This project presents Auto-TPE, an automatic termination method for training convolutional neural networks (CNNs) using TPE. We aim to dynamically terminate the HPO process once the potential for a better hyperparameter configuration is statistically unlikely.
